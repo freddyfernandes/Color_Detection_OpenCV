@@ -1,6 +1,19 @@
-Color detection with OpenCV 
-In this short project, I detect yellow objects via webcam and draw a boundary box around these objects. An important consideration for this , is the hue of the color 
+Color Detection with OpenCV
+This short project uses OpenCV to detect yellow objects through a webcam feed and draws a bounding box around them. 
+The key aspect of this project is the consideration of the hue value for color detection.
 
-Future scope for this would be to have several differently coloured objects being detected and labelled.
+Dependencies
+OpenCV
+NumPy
+Pillow (PIL)
 
--FREDDY FERNANDES
+Important Note
+Press 'q' to exit the webcam feed.
+Future Scope
+This project can be extended to detect and label objects of various colours. 
+Consider experimenting with different colour thresholds and adding object labels for a more versatile application.
+
+Feel free to explore and customize the code for your specific use case!
+
+-Freddy Fernandes
+
